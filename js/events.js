@@ -19,7 +19,7 @@ $(document).ready(function(){
   // call functions here
   $('p').on('click', getIt());
   $('form').on('submit', submitIt());
-  $('#typing').on('keydown', pressIt(key));   
+  $('#typing').on('keydown', pressIt(key));
   $('img').on('load', frameIt());
   $('form').on('submit', submitIt());
 });
